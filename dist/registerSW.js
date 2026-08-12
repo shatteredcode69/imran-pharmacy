@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('https://shatteredcode69.github.io/imrans-pharmacy/sw.js', { scope: 'https://shatteredcode69.github.io/imrans-pharmacy/' })})}

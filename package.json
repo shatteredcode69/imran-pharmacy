@@ -1,9 +1,9 @@
 {
-  "name": "imrans-pharmacy",
+  "name": "imran-pharmacy",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://<your-github-username>.github.io/imrans-pharmacy",
+  "homepage": "https://<your-github-username>.github.io/imran-pharmacy",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

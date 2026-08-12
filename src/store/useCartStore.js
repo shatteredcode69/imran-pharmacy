@@ -223,6 +223,6 @@ export const useCartStore = create(
 
       getLineCount: () => Object.keys(get().cart).length,
     }),
-    { name: 'imrans-pharmacy-cart' }
+    { name: 'imran-pharmacy-cart' }
   )
 );

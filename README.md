@@ -153,7 +153,7 @@ flowchart TD
 Components are grouped by **feature area** (not dumped flat into one folder), so each piece is easy to find and change independently:
 
 ```
-imrans-pharmacy/
+imran-pharmacy/
 ├── index.html
 ├── vite.config.js            # GitHub Pages base path + PWA manifest
 ├── tailwind.config.js
@@ -222,10 +222,10 @@ If you don't have it, download it from [nodejs.org](https://nodejs.org).
 
 ### Step 2 — Install dependencies
 
-From inside the `imrans-pharmacy` folder:
+From inside the `imran-pharmacy` folder:
 
 ```bash
-cd imrans-pharmacy
+cd imran-pharmacy
 npm install
 ```
 
@@ -317,7 +317,7 @@ git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/<your-username>/imrans-pharmacy.git
+git remote add origin https://github.com/<your-username>/imran-pharmacy.git
 git push -u origin main
 
 # Deploy (builds automatically via the predeploy script)
@@ -327,9 +327,9 @@ npm run deploy
 Then in your GitHub repo: **Settings → Pages → Source → branch `gh-pages`**.
 
 Your app will be live at:
-`https://<your-username>.github.io/imrans-pharmacy/`
+`https://<your-username>.github.io/imran-pharmacy/`
 
-> **Important:** if your repository name isn't `imrans-pharmacy`, update the `base` path in `vite.config.js`, the `start_url` / `scope` in its PWA manifest block, and `homepage` in `package.json` to match.
+> **Important:** if your repository name isn't `imran-pharmacy`, update the `base` path in `vite.config.js`, the `start_url` / `scope` in its PWA manifest block, and `homepage` in `package.json` to match.
 
 ---
 

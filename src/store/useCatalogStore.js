@@ -54,6 +54,6 @@ export const useCatalogStore = create(
 
       getMedicineById: (medicineId) => get().medicines.find((medicine) => medicine.id === medicineId),
     }),
-    { name: 'imrans-pharmacy-catalog' }
+    { name: 'imran-pharmacy-catalog' }
   )
 );

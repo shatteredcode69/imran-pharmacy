@@ -2,11 +2,11 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
-// NOTE: Replace 'imrans-pharmacy' below with your actual GitHub repo name.
+// NOTE: Replace 'imran-pharmacy' below with your actual GitHub repo name.
 // Base path must match the repo name for GitHub Pages project sites,
-// e.g. https://<username>.github.io/imrans-pharmacy/
+// e.g. https://<username>.github.io/imran-pharmacy/
 export default defineConfig({
-  base: 'https://shatteredcode69.github.io/imrans-pharmacy/',
+  base: 'https://shatteredcode69.github.io/imran-pharmacy/',
   plugins: [
     react(),
     VitePWA({
@@ -19,8 +19,8 @@ export default defineConfig({
         theme_color: '#0E6E5D',
         background_color: '#F6F7F4',
         display: 'standalone',
-        start_url: '/imrans-pharmacy/',
-        scope: '/imrans-pharmacy/',
+        start_url: '/imran-pharmacy/',
+        scope: '/imran-pharmacy/',
         icons: [
           {
             src: 'icon-192x192.png',

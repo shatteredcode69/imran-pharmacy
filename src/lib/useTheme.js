@@ -9,7 +9,7 @@ export function useTheme() {
     const root = document.documentElement;
     if (theme === 'dark') root.classList.add('dark');
     else root.classList.remove('dark');
-    localStorage.setItem('imrans-pharmacy-theme', theme);
+    localStorage.setItem('imran-pharmacy-theme', theme);
   }, [theme]);
 
   return [theme, setTheme];

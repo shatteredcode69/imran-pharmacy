@@ -46,7 +46,7 @@ export const useAuthStore = create(
       forgotPasswordReset: () => set({ passwordHash: null, unlocked: false }),
     }),
     {
-      name: 'imrans-pharmacy-auth',
+      name: 'imran-pharmacy-auth',
       partialize: (state) => ({ passwordHash: state.passwordHash }),
     }
   )

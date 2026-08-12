@@ -41,6 +41,6 @@ export const useHistoryStore = create(
 
       getOrderCount: () => get().orders.length,
     }),
-    { name: 'imrans-pharmacy-history' }
+    { name: 'imran-pharmacy-history' }
   )
 );
